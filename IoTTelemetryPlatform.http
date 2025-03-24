@@ -1,0 +1,6 @@
+@IoTTelemetryPlatform_HostAddress = http://localhost:5216
+
+GET {{IoTTelemetryPlatform_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

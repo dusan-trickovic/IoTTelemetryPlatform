@@ -1,0 +1,51 @@
+# Visual Studio specific files
+.vscode/
+.vs/
+
+# Build outputs
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+
+# Logs and database files
+*.log
+*.db
+
+# Dependency directories
+packages/
+
+# Rider specific files
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Generated files
+_Dependencies/
+Generated/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Coverage files (if using code coverage tools)
+coverage/
+*.coverage
+
+# Configuration files
+appsettings.json
+appsettings.Development.json
+
+# Other exclusions
+*.TestResults/
+
+# Azure specific files (if deploying to Azure)
+servicefabric/
+
+# DotNetBuild output
+PublishProfiles/
